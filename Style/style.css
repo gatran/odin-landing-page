@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 ul {
@@ -37,13 +38,91 @@ a, .desc {
     background-color: #1f2937;
 }
 
-.preimg {
-    display: flex;
-    flex-direction: column;
-}
-
 .title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8;
+}
+
+.image {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    background-color: grey;
+}
+
+button {
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.click {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_desc {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
+.container, .content {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    flex-wrap: wrap;
+}
+
+.card, .card_info {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+  }
+
+.quotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.ad {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+    height: 200px;
+}
+
+.ad_button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 10px;
+    color: white;
 }
